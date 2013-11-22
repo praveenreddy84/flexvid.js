@@ -1,5 +1,5 @@
 /*!
- *  FluidVids.js v1.0.0
+ *  Flexvid.js v1.0.0
  *  Making embeded videos Responsive and fluid.
  *  Tutorial: 
  *  by Praveen Reddy: http://t4s.me
