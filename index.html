@@ -1,0 +1,48 @@
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" />
+<title>FlexVid.js | Make your embedded videos responsive</title>
+<style>
+body{ background:#16a085; text-align:center;}
+header{ background:#1f1f1f; color:#fff; padding:20px; text-align:center;}
+.callto-action{ background:#CCC; padding:10px 0px;}
+.wrapper{ width:80%; margin:0 auto;}
+.flexvid{ margin:10px auto; width:100%; position:relative; padding:0px; background:#000;}
+@media screen and (max-width: 960px) {
+ .wrapper{ width:100%;}
+}
+@media screen and (max-width: 758px) {
+.wrapper{ width:80%;}
+}
+@media screen and (max-width: 524px) {
+.wrapper{ width:95.5%;}
+}
+</style>
+</head>
+<body>
+	<header>
+	<h2>Flexvid.js</h2>
+	<h4>Make your embedded videos responsive</h4>
+    </header>
+    <div class="callto-action">
+    <a href="http://www.t4s.me/tutorials/post/make-embedded-videos-responsive-using-jquery-6.html" target="_blank" title="Make embeded videos responsive using jquery" class="btn btn-primary">View Tutorial</a> &nbsp; <a href="http://www.t4s.me/tutorials/post/make-embeded-videos-responsive-using-jquery-6.html" target="_blank" title="Make embeded videos responsive using jquery" class="btn btn-primary">Download Code</a>
+    </div>
+        <div class="clearfix">&nbsp;</div>
+    <div class="wrapper">
+    <div class="flexvid">
+    	<iframe width="500" height="281" src="//www.youtube.com/embed/n5_ubHOHuRo" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="flexvid">
+    	<iframe src="//player.vimeo.com/video/79794849" width="420" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+    <div class="flexvid">
+    	<iframe width="420" height="315" src="//www.youtube.com/embed/577eZfUqIA8" frameborder="0" allowfullscreen></iframe>
+    </div>
+    </div>
+    <script src="flexvid.js"></script>
+</body>
+</html>
